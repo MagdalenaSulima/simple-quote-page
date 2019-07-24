@@ -49,25 +49,35 @@ table {
 
 /* - Main Styles - */
 
-
-
-/* - Background Style - */
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 body {
   background: url(assets/freedom.jpg) no-repeat center/cover;
   height: 100vh;
   width: 100vw;
   text-align: center;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 /* - Text Styles - */
 
 .main-quote {
-  font-family: Julius Sans One; 
-  text-transform: uppercase
+  font-family: "Julius Sans One", sans-serif; 
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
 
 .author {
-  font-family: Crimson Text;
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
   font-style: italic;
 }
